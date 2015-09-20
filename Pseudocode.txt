@@ -1,9 +1,9 @@
 input (A,B,C)
+int D;
+     D = (B*B)-(4*A*C)
    if A==0 then
      write (' Bukan Persamaan Kuadrat ')
- else
-     D=(B*B)-(4*A*C)
-   if D>0 then
+ else if D>0 then
      X1 = (-B+sqrt(B^2)-(4*A*C)/(2*A))
      X1 = (-B-sqrt(B^2)-(4*A*C)/(2*A))
   output (X1,X2)
