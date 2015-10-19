@@ -460,7 +460,7 @@ void hitung_6gelang(){
 	printf("Gelang 1 : %2.2f\nGelang 2 : %2.2f\nGelang 3 : %2.2f\nGelang 4 : %.2f\n",g1,g2,g3,rg4);
 	printf("Nilai Resisitor R = %.2f Ohm\n",hasil);
 	printf("Nilai Toleransi = %.2f %c\n",g5,persen);
-	printf("Temperatur = %dppm/K",g6);
+	printf("Temperatur = %d ppm/K",g6);
 	
 }
 int main(){
