@@ -19,13 +19,13 @@ int main() {
 		printf("Jam yang anda masukan salah\n");
 		printf("Jam 0-23\n");
 		salah=1;
-	}else if(MENIT>60){
+	}else if(MENIT>59){
 		printf("Menit yang anda masukan salah\n");
-		printf("Menit 0-60\n");
+		printf("Menit 0-59\n");
 		salah=1;
-	}else if(DETIK>60){
+	}else if(DETIK>59){
 		printf("Detik yang anda masukan salah\n");
-		printf("Detik 0-60\n");
+		printf("Detik 0-59\n");
 		salah=1;
 	}else{
 		salah = 0;
